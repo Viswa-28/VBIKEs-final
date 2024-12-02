@@ -4,11 +4,13 @@
   font-family: 'Montserrat', sans-serif;
   padding: 0%;
   margin: 0%;
+  scroll-behavior: smooth;
 }
 body{
     background-color: #050511;
-    scroll-behavior: smooth;
+   
     text-transform: capitalize;
+  
 }
 h1,p{
     color: #fffbfb;
