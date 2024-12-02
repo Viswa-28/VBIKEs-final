@@ -8,6 +8,7 @@
 body{
     background-color: #050511;
     scroll-behavior: smooth;
+    text-transform: capitalize;
 }
 h1,p{
     color: #fffbfb;
