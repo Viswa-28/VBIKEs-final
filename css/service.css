@@ -95,14 +95,14 @@ nav{
 .benifits{
     height: 400px;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .benifits .wrapper{
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 60px
-    ;
+    /* gap: 60px
+    ; */
 }
 .benifits .wrapper .top-section{
     display: flex;
@@ -114,7 +114,7 @@ nav{
     text-align: center;
 }
 .benifits .wrapper .bottom-section{
-    height: 70%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,6 +126,8 @@ nav{
 .top{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    /* width: 25%; */
 }
 .bottom{
     display: flex;
@@ -137,6 +139,8 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+
 }
 .type .bi{
     background-color: black;
@@ -151,13 +155,13 @@ nav{
 .check{
     height: 400px;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .check .wrapper{
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 28px;
 }
 .check .wrapper .top-section{
     height: 20%;
@@ -194,11 +198,16 @@ nav{
 @media only screen and (max-width:1166px){
     .call-section .wrapper .left-section .form {
         padding: 10px;
+        gap: 12px
+        ;
     }
     .check {
         height: auto;
         width: 100%;
         margin-bottom: 120px;
+    }
+    p{
+        font-size: 14px;
     }
 }
 @media only screen and (max-width:1050px){
@@ -206,7 +215,9 @@ nav{
         font-size: 20px;
       
     }
-
+    p{
+        font-size: 14px;
+    }
 }
 @media only screen and (max-width:960px){
     .call-section .wrapper {
@@ -232,6 +243,9 @@ nav{
         height: 450px;
        
     }
+    .call-section .wrapper .left-section {
+        width: 66%;
+    }
    
 
 }
@@ -252,6 +266,43 @@ nav{
     .check .wrapper .bottom-section ul li {
         font-size: 16px;
       
+    }
+    .top {
+        display: flex
+
+    ;
+    
+        gap: 20px;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .bottom {
+        display: flex
+    ;
+        gap: 20px;
+       
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .benifits {
+        height: auto;
+
+    }
+    .benifits .wrapper .bottom-section {
+        height: auto;
+      
+    }
+    benifits .wrapper .top-section {
+        display: flex
+    ;
+        height: auto;
+        
     }
 
 }

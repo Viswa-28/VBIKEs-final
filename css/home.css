@@ -60,7 +60,7 @@ justify-content: start;
     /* background-color: aqua; */
     display: flex;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     
 /* flex-direction: column; */
     /* align-items: ; */
@@ -71,7 +71,7 @@ justify-content: start;
     /* width: 100%; */
     display: flex;
     flex-direction: column;
-    gap: 90px
+    gap: 40px
     ;
     /* background-color: black; */
 }
@@ -127,7 +127,7 @@ justify-content: start;
 .steps-section{
     height: 400px;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     /* background-color: aqua; */
 }
 .steps-section .wrapper{
@@ -163,12 +163,16 @@ justify-content: start;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     /* align-items: center; */
     /* background-color:#050511 ; */
  }
  .steps-section .wrapper .bottom-section i{
     font-size:30px ;
     
+ }
+ .steps-section .wrapper .bottom-section .third{
+    gap: 20px;
  }
 
 
@@ -177,7 +181,7 @@ justify-content: start;
  .benifits-section{
     height: 350px;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
  }
  .benifits-section .wrapper{
     height: 100%;
@@ -230,7 +234,7 @@ justify-content: start;
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 50px
+    gap: 15px
     ;
     margin-bottom: 100px;
    
@@ -300,6 +304,17 @@ flex-wrap: wrap;}
 
 
 /* media query */
+@media only screen and (max-width:1200px){
+    .banner-section .left-section img{
+        height: 350px;
+        width: 400px;
+    }
+    h3{
+        font-weight: 600;
+        font-size: 23px;
+    }
+
+}
 
 
 
@@ -315,6 +330,17 @@ flex-wrap: wrap;}
         gap: 30px;
         align-items: center;
     }
+}
+@media only screen and (max-width:990px){
+    .choose-section .wrapper .bottom-section .cardd {
+      
+        width: 26%;
+    }
+    .choose-section {
+        height: auto;
+       
+    }
+
 }
 @media only screen and (max-width:950px){
     .banner-section .left-section img{
@@ -337,7 +363,15 @@ flex-wrap: wrap;}
         align-items: center;
         padding-bottom: 40px;
     }
+    .testimonial-name {
+        gap: 23px;
+        align-items: center;
+    }
+    .testimonial .testimonial-section .test-box {
+      height: auto;
+    }
     .testimonial {
+        height: auto;
        
     
         
@@ -461,7 +495,27 @@ flex-wrap: wrap;}
 @media only screen and (max-width:650px){
     .banner-section{
         height: auto;
+        
     }
+    .banner-section .wrapper {
+    
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    
+.banner-section .wrapper {
+    gap: 20px;
+
+}
+.banner-section {
+    height: auto;
+    margin-bottom: 80px;
+}
+.testimonial-heading {
+    height: 5%;
+    margin-bottom: 1px;
+   
+}
     .banner-section .wrapper{
         gap: 60px;
         flex-wrap: wrap;

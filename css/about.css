@@ -23,7 +23,7 @@ nav{
 .about-section{
     height: 188px;
     width: 100%;
-    margin-bottom: 63px;
+    margin-bottom: 80px;
 }
 .about-section .wrapper{
     height: 100%;
@@ -57,7 +57,7 @@ nav{
 /* number-ection end */
 .brands{
     height: 400px;
-    margin-bottom: 63px;
+    margin-bottom: 80px;
 
 }
 .brands .wrapper{
@@ -126,12 +126,20 @@ nav{
         width: 100%;
         margin-bottom: 63px;
     }
+    .about-section .wrapper {
+      
+        gap: 10px;
+    }
   
     
 }
 @media only screen and (max-width:630px){
     .about-section .wrapper {
        gap: 30px;
+}
+.about-section {
+ 
+    margin-bottom: 65px;
 }
 .about-section {
     height: auto;
