@@ -95,7 +95,7 @@ justify-content: start;
 .choose-section .wrapper .bottom-section .cardd{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 4px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -129,6 +129,7 @@ justify-content: start;
     width: 100%;
     margin-bottom: 80px;
     /* background-color: aqua; */
+    text-align: center;
 }
 .steps-section .wrapper{
     height: 100%;
@@ -330,6 +331,16 @@ flex-wrap: wrap;}
         gap: 30px;
         align-items: center;
     }
+    .choose-section .wrapper .bottom-section {
+        height: 80%;
+        display: flex
+    ;
+        flex-wrap: wrap;
+        gap: 50PX;
+        justify-content: center;
+        align-items: start;
+        width: 100%;
+    }
 }
 @media only screen and (max-width:990px){
     .choose-section .wrapper .bottom-section .cardd {
@@ -463,6 +474,11 @@ flex-wrap: wrap;}
         height: auto;
         
         
+    }
+    .testimonial .testimonial-section .test-box {
+        width: 56%;
+        flex-wrap: wrap;
+        height: 60%;
     }
 }
 @media only screen and (max-width:700px){

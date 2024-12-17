@@ -200,6 +200,22 @@ footer .wrapper .fourth{
     padding-bottom: 20px;
 
 }
+.contact{
+    display: flex;
+    gap: 10px
+    ;
+}
+.contact i{
+    color: #fffbfb;
+}
+.contact2{
+    display: flex;
+    gap: 10px
+    ;
+}
+.contact2 i{
+    color: #fffbfb;
+}
 
  
 /* media query */
@@ -264,11 +280,43 @@ footer .wrapper .fourth{
         height: auto;
       
     }
+    footer .wrapper .first {
+      
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    footer .wrapper .second {
+      
+        width: 50%;
+    }
+    footer .wrapper .third {
+      
+        width: 50%;
+    }
+    footer .wrapper .fourth {
+      
+        width: 50%;
+    }
 }
 @media only screen and (max-width:850px){
     nav .wrapper label{
         display: block;
         order: 3;
+    }
+    #navbar:checked~ul {
+        margin-top: 20px;
+    }
+    .benifits-section {
+        height: 350px;
+        width: 100%;
+        margin-bottom: 43px;
+    }
+    .steps-section {
+        height: 400px;
+        width: 100%;
+        margin-bottom: 10px;
+        /* background-color: aqua; */
+        text-align: center;
     }
     nav .wrapper ul {
      
@@ -297,19 +345,42 @@ footer .wrapper .fourth{
         top: 40px;
         right: 0px;
         padding-right: 70px;
-        padding-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
 
     }
     nav {
         margin-bottom: 32px;
         z-index: 1;
-        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
+    }
+    footer .wrapper .first {
+      
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    footer .wrapper .second {
+      
+        width: 50%;
+    }
+    footer .wrapper .third {
+      
+        width: 50%;
+    }
+    footer .wrapper .fourth {
+      
+        width: 50%;
     }
 
 } 
 @media only screen and (max-width:750px){
     footer .wrapper .first{
         width: 50%;
+    }
+    .steps-section {
+      
+        margin-bottom: 6px;
+       
     }
     footer .wrapper .second{
         width: 50%;
@@ -346,6 +417,14 @@ footer .wrapper .fourth{
     p{
         font-size: 14px;
         font-weight: 500;
+    }
+    footer .wrapper {
+        height: 100%;
+        display: flex
+    ;
+        align-items: start;
+        justify-content: start;
+        flex-wrap: wrap;
     }
 
 }

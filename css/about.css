@@ -72,6 +72,7 @@ nav{
 .brands .wrapper img{
     height: 149px;
     width: 350px;
+    object-fit: contain;
 }
 /* media  */
 @media only screen and (max-width:1250px){
