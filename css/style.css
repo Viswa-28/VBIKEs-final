@@ -45,6 +45,11 @@ p{
     border: none;
     cursor: pointer;
 }
+.primary:hover{
+    background-color: #f121c4;
+
+    color:rgb(1, 1, 38);
+}
 .secondary{
     background-color: #050511;
     border: #b92d9a 2px solid;
@@ -101,6 +106,9 @@ nav .wrapper ul {
 nav .wrapper ul li a{
     text-decoration: none;
     color: #fffbfb;
+}
+nav .wrapper ul li a:hover{
+    text-decoration: underline;
 }
 nav .wrapper ul li .active{
     color: #b92d9a;
@@ -190,6 +198,9 @@ footer .wrapper .fourth{
    
     
 }
+footer .wrapper .fourth span{
+    color: #fffbfb;
+}
 .copy{
     width: 100%;
     display: flex;
@@ -200,6 +211,10 @@ footer .wrapper .fourth{
     padding-bottom: 20px;
 
 }
+.copy a{
+    color: #fffbfb;
+}
+
 .contact{
     display: flex;
     gap: 10px
@@ -426,6 +441,12 @@ footer .wrapper .fourth{
         justify-content: start;
         flex-wrap: wrap;
     }
+    .copy{
+        display: flex;
+        flex-direction: column;
+        gap: 1px
+        ;
+    }
 
 }
 @media only screen and (max-width:700px){
@@ -474,4 +495,8 @@ footer .wrapper .fourth{
             margin: 0px 25px;
             /* margin-bottom: 100px; */
         }
+        .copy p{
+            font-size: 12px;
+        }
+
 }

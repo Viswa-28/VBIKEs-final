@@ -561,8 +561,7 @@ flex-wrap: wrap;}
     .choose-section .wrapper .bottom-section .cardd {
         height: auto;
         width: 100%;
-        gap: 20px
-        ;
+    
     }
     .steps-section .wrapper .bottom-section {
       
@@ -584,6 +583,13 @@ flex-wrap: wrap;}
         text-align: center;
      }
 }
+@media only screen and (max-width:430px){
+    .benifits-section .wrapper .card-section .box {
+        width: 60%;
+     
+    }
+}
+
 @media only screen and (max-width:414px){
   
 
